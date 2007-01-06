@@ -1,3 +1,6 @@
+Quick Example
+===================
+
 the statsvn.bat file is a quick example of how to create a statsvn report.
 
 It generates the xdoc in site/statsvn but it could equally do it in 
