@@ -1,5 +1,9 @@
 :start
 
+call script/statsvn-testng.bat
+cd \statsvn
+
+REM -----------------------------------------------------------------
 call script/statsvn-jdk7.bat
 cd \statsvn
 
@@ -40,12 +44,12 @@ call script/statsvn-ant-svn.bat
 cd \statsvn
 
 REM -----------------------------------------------------------------
-rem call script/statsvn-ant-http.bat
-rem cd \statsvn
+call script/statsvn-ant-http.bat
+cd \statsvn
 
 REM -----------------------------------------------------------------
-rem call script/statsvn-ant-manual4eclipse.bat
-rem cd \statsvn
+call script/statsvn-ant-manual4eclipse.bat
+cd \statsvn
 
 REM -----------------------------------------------------------------
 call script/statsvn-ant-dotnet.bat
@@ -114,6 +118,8 @@ cd \statsvn
 REM -----------------------------------------------------------------
 call maven site
 
-call rsync-all.bat
+call zipit.bat
 
-goto start
+call sync-all.bat
+
+rem goto start

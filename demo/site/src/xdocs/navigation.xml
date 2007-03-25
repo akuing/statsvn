@@ -21,11 +21,12 @@
   <item
     name="ObjectLab"
     href="http://www.objectlab.co.uk"
+    img="http://www.objectlab.co.uk/images/objectlab-poweredby3.gif"
     />
 </powered-by>
 
 <footer>
-<iframe frameborder="0" scrolling="no" align="middle" height="110" width="770" src="http://www.objectlab.co.uk/statsvn/demo.html" width="100%">
+<iframe frameborder="0" scrolling="no" align="middle" height="110" width="770" src="http://www.objectlab.co.uk/statsvn/demo.html">
 </iframe>
 
       <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
