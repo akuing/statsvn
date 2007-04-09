@@ -1,119 +1,139 @@
 :start
 
+call script/statsvn-xmlunit.bat
+cd %STATSVN_HOME%\demo
+
+REM -----------------------------------------------------------------
+call script/statsvn-m2plugins.bat
+cd %STATSVN_HOME%\demo
+
+REM -----------------------------------------------------------------
+call script/statsvn-maven1.bat
+cd %STATSVN_HOME%\demo
+
+REM -----------------------------------------------------------------
 call script/statsvn-testng.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-jdk7.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-commons-lang.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-servicemix.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-jruby.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-jboss.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-xstream.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-jtreemap.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-objectlabkit.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-antunit.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-ant-svn.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-ant-http.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-ant-manual4eclipse.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-ant-dotnet.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-synapse.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-subversion.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-spring-richclient.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-ruby.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-qpid.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-qalab.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-pzfilereader.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
+
+REM -----------------------------------------------------------------
+call script/statsvn-continuum.bat
+cd %STATSVN_HOME%\demo
+
+REM -----------------------------------------------------------------
+call script/statsvn-maven2.bat
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-mule.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-log4j.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-groovy.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-joda-time.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-hibernate.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-grails.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-ant.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call script/statsvn-felix.bat
-cd \statsvn
+cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
 call maven site
