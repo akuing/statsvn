@@ -18,6 +18,7 @@
     <meta name="Revisit-After" content="20 Days" />
   </head>
   <body>
+    <p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a href="http://feeds.feedburner.com/~r/ObjectlabOpenSourceNews/~6/1"><img src="http://feeds.feedburner.com/ObjectlabOpenSourceNews.1.gif" alt="ObjectLab Open Source News" style="border:0"/></a></p><p style="margin-top:5px; padding-top:0; font-size:x-small; text-align:center"><a href="http://www.feedburner.com/fb/a/headlineanimator/install?id=829470&amp;w=1" onclick="window.open(this.href, 'haHowto', 'width=520,height=600,toolbar=no,address=no,resizable=yes,scrollbars'); return false" target="_blank">Add this Animator to your site.</a></p>
     <!-- The body of the document contains a number of sections -->
     <section name="Demos..">
     <p>We thought it would be nice to have some "demo" against some major OS projects, so here you go:</p>
@@ -51,11 +52,16 @@
     <li><a href="commons-lang">Commons-Lang</a> The Apache Commons Lang.</li>
     <li><a href="jdk7">JDK7</a> The java JDK version 7! Checkout the very latest changes!</li>
     <li><a href="testng">TestNG</a> TestNG, the new testing framework!</li>
+    <li><a href="maven1">Maven 1</a> The Apache Maven 1!</li>
+    <li><a href="maven2">Maven 2</a> The Apache Maven 2!</li>
+    <li><a href="m2plugins">Maven 2 Plugins</a> The Apache Maven 2 Plugins!</li>
+    <li><a href="continuum">Continuum</a> The Apache Continuum project!</li>
+    <li><a href="pebble">Pebble</a> a Blog software!</li>
     </ol>
     
     <p>Furthermore, generating the stats for these projects is very intensive since we need to contact the Subversion server many times in order to get
     the line differences.  However, do not despair, StatSVN creates a cache so that the next run is much much faster!  And the best is that you can download that cache
-    for the demo projects, <a href="repocache.zip">here! (a zip)</a>.</p>
+    for the demo projects, <a href="repocache.zip">here! (a zip)</a>, just unzip it under your HOME directory ( in ".statsvn" directory).</p>
     
     <p>If you would like us to add an open source project, please raise an issue on SF and provide us with the following information:</p>
     <ol>
