@@ -112,7 +112,7 @@ call script/statsvn-log4j.bat
 cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
-call script/statsvn-groovy.bat
+call script/statsvn-groovy-core.bat
 cd %STATSVN_HOME%\demo
 
 REM -----------------------------------------------------------------
