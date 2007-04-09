@@ -1,3 +1,4 @@
+title Synapse
 cd \statsvn\demos\synapse
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/webservices/synapse/java > svn.log

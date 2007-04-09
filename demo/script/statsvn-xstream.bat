@@ -1,3 +1,4 @@
+title XStream
 cd \statsvn\demos\xstream
 svn update
 svn log -v --xml http://svn.codehaus.org/xstream > svn.log

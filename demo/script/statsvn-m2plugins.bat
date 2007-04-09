@@ -1,3 +1,4 @@
+title Maven2Plugins
 cd \statsvn\demos\m2plugins
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/maven/plugins/ > svn.log

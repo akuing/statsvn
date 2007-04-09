@@ -1,3 +1,4 @@
+title Maven1
 cd \statsvn\demos\maven1
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/maven/maven-1/core/ > svn.log

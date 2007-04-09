@@ -1,3 +1,4 @@
+title Continuum
 cd \statsvn\demos\continuum
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/maven/continuum/ > svn.log

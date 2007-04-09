@@ -1,3 +1,4 @@
+title JBoss
 cd \statsvn\demos\jbossas
 svn update
 svn log -v --xml http://anonsvn.jboss.org/repos/jbossas > svn.log

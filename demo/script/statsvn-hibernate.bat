@@ -1,3 +1,4 @@
+title Hibernate
 cd \statsvn\demos\hibernate
 svn update
 svn log -v --xml http://anonsvn.jboss.org/repos/hibernate > svn.log

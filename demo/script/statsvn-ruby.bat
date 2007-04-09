@@ -1,3 +1,4 @@
+title Ruby
 cd \statsvn\demos\ruby
 svn update
 svn log -v --xml http://svn.ruby-lang.org/repos/ruby/ > svn.log

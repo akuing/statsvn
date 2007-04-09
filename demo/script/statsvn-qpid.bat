@@ -1,3 +1,4 @@
+title QPid
 cd \statsvn\demos\qpid
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/incubator/qpid > svn.log

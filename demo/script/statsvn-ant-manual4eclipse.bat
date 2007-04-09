@@ -1,3 +1,4 @@
+title Ant-Manual4Eclipse
 cd \statsvn\demos\ant-manual4eclipse
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/ant/sandbox/antlibs/manual4eclipse/ > svn.log

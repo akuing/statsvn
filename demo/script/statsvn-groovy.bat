@@ -1,3 +1,4 @@
+title Groovy
 cd \statsvn\demos\groovy
 svn update
 svn log -v --xml http://svn.codehaus.org/groovy/ > svn.log

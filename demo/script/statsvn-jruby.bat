@@ -1,3 +1,4 @@
+title JRuby
 cd \statsvn\demos\jruby
 svn update
 svn log -v --xml http://svn.codehaus.org/jruby/ > svn.log

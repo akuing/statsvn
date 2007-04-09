@@ -1,3 +1,4 @@
+title Subversion
 cd \statsvn\demos\subversion
 svn update
 svn log -v --xml https://svn.collab.net/repos/svn > svn.log

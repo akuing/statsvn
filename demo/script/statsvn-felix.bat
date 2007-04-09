@@ -1,3 +1,4 @@
+title Felix
 cd \statsvn\demos\felix
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/incubator/felix/ > svn.log

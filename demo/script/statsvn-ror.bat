@@ -1,3 +1,4 @@
+title ROR
 cd \statsvn\demos\ror
 svn update
 svn log -v --xml http://svn.rubyonrails.org/rails/trunk > svn.log

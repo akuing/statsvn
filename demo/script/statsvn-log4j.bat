@@ -1,3 +1,4 @@
+title Log4j
 cd \statsvn\demos\log4j
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/logging/log4j > svn.log

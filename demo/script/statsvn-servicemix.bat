@@ -1,3 +1,4 @@
+title ServiceMix
 cd \statsvn\demos\servicemix
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/incubator/servicemix/ > svn.log

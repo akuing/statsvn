@@ -1,3 +1,4 @@
+title Maven2
 cd \statsvn\demos\maven2
 svn update
 svn log -v --xml http://svn.apache.org/repos/asf/maven/components/ > svn.log
